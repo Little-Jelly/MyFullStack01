@@ -1,4 +1,9 @@
-.top-theme {
+.themeA {
     width: 100%;
     height:  260rpx;
+}
+
+.swiper {
+    width: 100%;
+    height: 360rpx;
 }

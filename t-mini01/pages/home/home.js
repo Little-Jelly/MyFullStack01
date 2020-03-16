@@ -1,19 +1,27 @@
 // pages/home/home.js
-import {config} from "../../config/config";
 import {Theme} from "../../model/theme";
+import {Banner} from "../../model/banner";
 
 Page({
 
   data: {
-    themeName:null
+    themeA:null,
+    bannerB:null
   },
 
-  onLoad: async function (options) {
-      const data = await Theme.getHomeLocationA()
-      this.setData({
-          themeName:data[0]
-        })
+  async onLoad(options) {
+      this.initAllData()
   },
+
+    // 用于初始化页面的信息
+   async initAllData() {
+       const themeA = await Theme.getHomeLocationA()
+       const bannerB = await Banner.getHomeLocationB()
+       this.setData({
+           themeA:themeA[0],
+           bannerB:bannerB
+       })
+   },
 
   onPullDownRefresh: function () {
 

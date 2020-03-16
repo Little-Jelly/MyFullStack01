@@ -1,3 +1,21 @@
 <view>
-    <image class="top-theme" src="{{themeName.entrance_img}}"></image>
+
+<!--    主题theme的画面-->
+    <image class="themeA" src="{{themeA.entrance_img}}"></image>
+
+<!--    Banner的画面-->
+    <swiper class="swiper"
+        indicator-dots
+        indicator-active-color="#157658"
+        autoplay
+        circular>
+        <block wx:for="{{bannerB.items}}">
+            <swiper-item>
+                <image class="swiper" src="{{item.img}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+
+<!--    六宫格的画面-->
+
 </view>
