@@ -1,14 +1,14 @@
 <view>
 
-<!--    主题theme的画面-->
+    <!--    主题theme的画面-->
     <image class="themeA" src="{{themeA.entrance_img}}"></image>
 
-<!--    Banner的画面-->
+    <!--    Banner的画面-->
     <swiper class="swiper"
-        indicator-dots
-        indicator-active-color="#157658"
-        autoplay
-        circular>
+            indicator-dots
+            indicator-active-color="#157658"
+            autoplay
+            circular>
         <block wx:for="{{bannerB.items}}">
             <swiper-item>
                 <image class="swiper" src="{{item.img}}"></image>
@@ -16,6 +16,6 @@
         </block>
     </swiper>
 
-<!--    六宫格的画面-->
-
+    <!--    六宫格的画面-->
+    <s-category-grid grid="{{grid}}"></s-category-grid>
 </view>
