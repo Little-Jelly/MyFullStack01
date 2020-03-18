@@ -18,4 +18,7 @@
 
     <!--    六宫格的画面-->
     <s-category-grid grid="{{grid}}"></s-category-grid>
+
+<!--    优惠券-->
+    <image class="activity" src="{{activityD.entrance_img}}"></image>
 </view>
