@@ -19,12 +19,18 @@ Page({
 
     // 用于初始化页面的信息
    async initAllData() {
-       const themeA = await Theme.getHomeLocationA()
+       // const themeA = await Theme.getHomeLocationA()
+       const themes = await Theme.getThemes()
+       const themeA = themes.find(t=>t.name ==='t-1')
+       const themeE = themes.find(t=>t.name === 't-2')
+       const themeF = themes.find(t=>t.name === 't-3')
+       const themeH = themes.find(t=>t.name === 't-4')
+
        const bannerB = await Banner.getHomeLocationB()
        const grid = await Category.getHomeLocationC()
        const activityD = await Activity.getHomeLoacationD()
        this.setData({
-           themeA:themeA[0],
+           themeA:themeA,
            bannerB:bannerB,
            grid:grid,
            activityD:activityD
