@@ -19,6 +19,12 @@
     <!--    六宫格的画面-->
     <s-category-grid grid="{{grid}}"></s-category-grid>
 
-<!--    优惠券-->
+    <!--    优惠券-->
     <image class="activity" src="{{activityD.entrance_img}}"></image>
+
+    <s-spu-scroll
+            theme="{{themeE}}"
+            spu-list="{{themeESpu}}"
+            wx:if="{{themeE.online}}">
+    </s-spu-scroll>
 </view>
