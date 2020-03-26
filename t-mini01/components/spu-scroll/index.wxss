@@ -8,11 +8,11 @@
     }
 
     .price-unit{
-        font-size: 32rpx !important;
+        font-size: 24rpx !important;
     }
 
     .price-value{
-        font-size: 32rpx !important;
+        font-size: 26rpx !important;
         font-weight: 800 !important;
     }
 
@@ -36,6 +36,12 @@
         font-size: 20rpx;
         color: #666666;
         margin-top: 20rpx;
+
+        /*让一段文本在行内进行省略*/
+        /*overflow: hidden;*/
+        /*text-overflow: ellipsis;*/
+        /*white-space: nowrap;*/
+        /*width: 150rpx;*/
     }
     .spu-containner{
         margin-right: 60rpx;
