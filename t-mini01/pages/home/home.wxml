@@ -33,6 +33,11 @@
 
     <!--热卖榜单-->
     <s-hot-list banner="{{bannerG}}"></s-hot-list>
-
+    <!--时尚出街-->
     <image class="fashion" src="{{themeH.entrance_img}}"></image>
+
+    <view class="spu-bottom">
+        <image class="title-spu-bottom" src="/imgs/home/title@interest.png"></image>
+        <l-water-flow generic:l-water-flow-item="s-spu-preview"></l-water-flow>
+    </view>
 </view>

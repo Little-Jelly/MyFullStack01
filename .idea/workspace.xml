@@ -26,10 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/t-mini01/wxss/sleeve.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/imgs/home/title@interest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/model/spu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/utils/paging.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,6 +76,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/t-mini01/imgs/home" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,6 +85,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ZYF\WebstormProjects\MyFullStack01\t-mini01\imgs\home" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,7 +107,7 @@
       <workItem from="1599488119412" duration="3619000" />
       <workItem from="1599528774499" duration="2567000" />
       <workItem from="1599548706364" duration="5690000" />
-      <workItem from="1599566015162" duration="4303000" />
+      <workItem from="1599566015162" duration="13570000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -111,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599569370671</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="组件显示效果的优化：点击态">
+      <created>1599572434380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599572434380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +163,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除原有的api部分的程序" />
     <MESSAGE value="截至到主页上面瀑布流之前的页面内容显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="截至到主页上面瀑布流之前的页面内容显示" />
+    <MESSAGE value="组件显示效果的优化：点击态" />
+    <option name="LAST_COMMIT_MESSAGE" value="组件显示效果的优化：点击态" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -155,13 +175,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599569506561">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599572443258">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599569506561" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599572443258" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599552909277">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599552909277" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1599572538861">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599572538861" />
   </component>
 </project>

@@ -3,6 +3,7 @@ import {Theme} from "../../model/theme";
 import {Banner} from "../../model/banner";
 import {Category} from "../../model/category";
 import {Activity} from "../../model/activity";
+import {SpuPaging} from "../../model/spu";
 
 Page({
 
@@ -17,7 +18,17 @@ Page({
 
   async onLoad(options) {
       this.initAllData()
+      this.initBottomSpuList()
   },
+
+    async initBottomSpuList(){
+        const paging = await SpuPaging.getLatestPaing()
+        const data = await paging.getMoreData()
+        if(!data){
+            return
+        }
+        wx.lin.renderWaterFlow(data.items, false)
+    },
 
     // 用于初始化页面的信息
    async initAllData() {
