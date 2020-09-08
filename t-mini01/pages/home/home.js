@@ -13,7 +13,8 @@ Page({
       themeESpu:[],
       bannerB:null,
       grid:[],
-      activityD:null
+      activityD:null,
+      spuPaging:null
   },
 
   async onLoad(options) {
@@ -23,6 +24,7 @@ Page({
 
     async initBottomSpuList(){
         const paging = await SpuPaging.getLatestPaing()
+        this.data.spuPaging = paging
         const data = await paging.getMoreData()
         if(!data){
             return
@@ -73,8 +75,16 @@ Page({
 
   },
 
-  onReachBottom: function () {
+  onReachBottom: async function () {
+      console.log("0909009099090url"+this.data.spuPaging.url)
+      console.log("0909009099090start"+this.data.spuPaging.start)
+      console.log("0909009099090count"+this.data.spuPaging.count)
+      const data = await this.data.spuPaging.getMoreData()
 
+      if(!data){
+          return
+      }
+      wx.lin.renderWaterFlow(data.items)
   },
 
   onShareAppMessage: function () {

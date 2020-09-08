@@ -46,7 +46,7 @@ class Paging{
                 accumulator:[]
             }
         }
-        this.moreData = Paging._moreData(paging.total_Page, paging.page)
+        this.moreData = Paging._moreData(paging.total_page, paging.page)
         if(this.moreData){
             this.start += this.count
         }
@@ -70,7 +70,7 @@ class Paging{
     }
 
     static _moreData(totalPage, pageNum){
-        return pageNum < totalPage-1?true:false
+        return pageNum < totalPage - 1?true:false
     }
 
     _getCurrentReq(){
