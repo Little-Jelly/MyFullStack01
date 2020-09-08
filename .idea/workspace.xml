@@ -1,13 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="" />
+    <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/model/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/model/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/model/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/project.config.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gqTTdnheRnPtU195TiFMqOIvlZ" />
@@ -17,8 +67,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -28,11 +86,73 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598841133206</updated>
-      <workItem from="1598841137081" duration="365000" />
+      <workItem from="1598841137081" duration="5081000" />
+      <workItem from="1598923548022" duration="8052000" />
+      <workItem from="1599383788768" duration="632000" />
+      <workItem from="1599398181328" duration="6978000" />
+      <workItem from="1599465463613" duration="1973000" />
+      <workItem from="1599488119412" duration="3619000" />
+      <workItem from="1599528774499" duration="2567000" />
+      <workItem from="1599548706364" duration="5690000" />
+      <workItem from="1599566015162" duration="1909000" />
     </task>
+    <task id="LOCAL-00001" summary="删除原有的api部分的程序">
+      <created>1598841987413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598841987413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除原有的api部分的程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除原有的api部分的程序" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="694" y="348" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1599399485904" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1599491474138">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1598841996307">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598841996307" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1599552909277">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599552909277" />
   </component>
 </project>

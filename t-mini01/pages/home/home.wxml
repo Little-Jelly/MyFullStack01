@@ -22,9 +22,17 @@
     <!--    优惠券-->
     <image class="activity" src="{{activityD.entrance_img}}"></image>
 
+    <!-- 每周上新 -->
     <s-spu-scroll
             theme="{{themeE}}"
             spu-list="{{themeESpu}}"
             wx:if="{{themeE.online}}">
     </s-spu-scroll>
+    <!--风袖甄选-->
+    <image src="{{themeF.entrance_img}}" class="quality"></image>
+
+    <!--热卖榜单-->
+    <s-hot-list banner="{{bannerG}}"></s-hot-list>
+
+    <image class="fashion" src="{{themeH.entrance_img}}"></image>
 </view>

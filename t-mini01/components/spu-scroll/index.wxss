@@ -38,6 +38,7 @@
         margin-top: 20rpx;
 
         /*让一段文本在行内进行省略*/
+        /*解决价格因过长而换行进行省略*/
         /*overflow: hidden;*/
         /*text-overflow: ellipsis;*/
         /*white-space: nowrap;*/

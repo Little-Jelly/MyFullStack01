@@ -14,7 +14,6 @@
                             l-value-class="price-value"
                             value="{{item.price}}">
                     </l-price>
-
                 </view>
             </block>
         </view>
