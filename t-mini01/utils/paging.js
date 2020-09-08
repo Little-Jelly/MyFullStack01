@@ -33,6 +33,7 @@ class Paging{
 
     async _actualGetData(){
         const req = this._getCurrentReq()
+        
         let paging = await Http.request(req)
         if(!paging){
             return null

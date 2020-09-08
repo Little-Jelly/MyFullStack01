@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,16 +29,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/t-mini01/imgs/home/title@interest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t-mini01/model/spu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t-mini01/utils/paging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/wxs/price.wxs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/utils/paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/utils/paging.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <workItem from="1599488119412" duration="3619000" />
       <workItem from="1599528774499" duration="2567000" />
       <workItem from="1599548706364" duration="5690000" />
-      <workItem from="1599566015162" duration="13570000" />
+      <workItem from="1599566015162" duration="16664000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599572434380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="写瀑布流的第一步：封装通用的Paging对象">
+      <created>1599583173447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599583173447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +171,8 @@
     <MESSAGE value="删除原有的api部分的程序" />
     <MESSAGE value="截至到主页上面瀑布流之前的页面内容显示" />
     <MESSAGE value="组件显示效果的优化：点击态" />
-    <option name="LAST_COMMIT_MESSAGE" value="组件显示效果的优化：点击态" />
+    <MESSAGE value="写瀑布流的第一步：封装通用的Paging对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="写瀑布流的第一步：封装通用的Paging对象" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -175,17 +183,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599572443258">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599583180189">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599572443258" />
-    <state x="616" y="243" key="run.anything.popup" timestamp="1599552909277">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599583180189" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1599585415011">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599552909277" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1599572538861">
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599585415011" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1599583137894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599572538861" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599583137894" />
   </component>
 </project>
