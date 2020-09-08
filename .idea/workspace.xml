@@ -26,23 +26,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/t-mini01/wxss/sleeve.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/model/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/model/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/model/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/hot-list/index.wxss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -70,6 +70,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +95,7 @@
       <workItem from="1599488119412" duration="3619000" />
       <workItem from="1599528774499" duration="2567000" />
       <workItem from="1599548706364" duration="5690000" />
-      <workItem from="1599566015162" duration="1909000" />
+      <workItem from="1599566015162" duration="4303000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598841987413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="截至到主页上面瀑布流之前的页面内容显示">
+      <created>1599569370671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599569370671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除原有的api部分的程序" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除原有的api部分的程序" />
+    <MESSAGE value="截至到主页上面瀑布流之前的页面内容显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="截至到主页上面瀑布流之前的页面内容显示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -146,10 +155,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1598841996307">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599569506561">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598841996307" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599569506561" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599552909277">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
