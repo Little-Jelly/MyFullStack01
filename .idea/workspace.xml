@@ -30,12 +30,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/category-grid/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/category-grid/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-scroll/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +103,7 @@
       <workItem from="1599528774499" duration="2567000" />
       <workItem from="1599548706364" duration="5690000" />
       <workItem from="1599566015162" duration="20630000" />
-      <workItem from="1599612323161" duration="2661000" />
+      <workItem from="1599612323161" duration="2958000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -159,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599613317695</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="优化使用loadmore的方法:设置显示时机，状态1和状态3的切换&#10;修改“没有更多数据”即状态3的显示文本&#10;在有wx:for的地方加上wx:key，以消除console报出来的警告">
+      <created>1599615552300</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599615552300</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +199,8 @@
     <MESSAGE value="对瀑布流自定义组件的样式调整：&#10;标签&#10;价格/打折价格" />
     <MESSAGE value="初步完成瀑布流" />
     <MESSAGE value="使用loadmore的linui组件，实现页底提示" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用loadmore的linui组件，实现页底提示" />
+    <MESSAGE value="优化使用loadmore的方法:设置显示时机，状态1和状态3的切换&#10;修改“没有更多数据”即状态3的显示文本&#10;在有wx:for的地方加上wx:key，以消除console报出来的警告" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化使用loadmore的方法:设置显示时机，状态1和状态3的切换&#10;修改“没有更多数据”即状态3的显示文本&#10;在有wx:for的地方加上wx:key，以消除console报出来的警告" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -208,10 +211,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599613322872">
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599615597885">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599613322872" />
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599615597885" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599585415011">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

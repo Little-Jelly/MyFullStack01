@@ -77,9 +77,6 @@ Page({
   },
 
   onReachBottom: async function () {
-      console.log("0909009099090url"+this.data.spuPaging.url)
-      console.log("0909009099090start"+this.data.spuPaging.start)
-      console.log("0909009099090count"+this.data.spuPaging.count)
       const data = await this.data.spuPaging.getMoreData()
 
       if(!data){
