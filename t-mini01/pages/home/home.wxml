@@ -1,5 +1,7 @@
 
-<l-loadmore show>
+<l-loadmore show type="{{loadingType}}"
+            end-text="-YOUYOUBA作品-"
+            >
 
     <view slot="content" class="container">
 
@@ -12,7 +14,7 @@
                 indicator-active-color="#157658"
                 autoplay
                 circular>
-            <block wx:for="{{bannerB.items}}">
+            <block wx:for="{{bannerB.items}}" wx:key="index">
                 <swiper-item>
                     <image class="swiper" src="{{item.img}}"></image>
                 </swiper-item>
