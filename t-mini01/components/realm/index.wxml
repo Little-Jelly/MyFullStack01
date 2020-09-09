@@ -1,0 +1,17 @@
+
+        <view class="container">
+<!--            realm大概分四块-->
+            <view class="">
+                <image src=""></image>
+            </view>
+            <block wx:for="{{}}">
+                <s-fence></s-fence>
+            </block>
+            <view class="counter-container">
+<!--                <l-conuter></l-conuter>-->
+            </view>
+            <view>
+                <button></button>
+                <button></button>
+            </view>
+        </view>

@@ -29,10 +29,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/models/fence-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/models/fence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/model/activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/models/activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/model/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/models/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/model/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/models/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/model/spu-paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/models/spu-paging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/models/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +119,8 @@
       <workItem from="1599528774499" duration="2567000" />
       <workItem from="1599548706364" duration="5690000" />
       <workItem from="1599566015162" duration="20630000" />
-      <workItem from="1599612323161" duration="5752000" />
+      <workItem from="1599612323161" duration="7442000" />
+      <workItem from="1599663314836" duration="1909000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -177,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599616356874</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="瀑布流图片，设置点击-&gt;页面跳转">
+      <created>1599640087039</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599640087039</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +240,8 @@
     <MESSAGE value="优化使用loadmore的方法:设置显示时机，状态1和状态3的切换&#10;修改“没有更多数据”即状态3的显示文本&#10;在有wx:for的地方加上wx:key，以消除console报出来的警告" />
     <MESSAGE value="去除多余的调试信息console.log" />
     <MESSAGE value="优化每周上新的价格显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化每周上新的价格显示" />
+    <MESSAGE value="瀑布流图片，设置点击-&gt;页面跳转" />
+    <option name="LAST_COMMIT_MESSAGE" value="瀑布流图片，设置点击-&gt;页面跳转" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
