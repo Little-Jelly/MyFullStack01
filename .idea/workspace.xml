@@ -30,11 +30,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/spu-preview/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/utils/paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/utils/paging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,8 @@
       <workItem from="1599488119412" duration="3619000" />
       <workItem from="1599528774499" duration="2567000" />
       <workItem from="1599548706364" duration="5690000" />
-      <workItem from="1599566015162" duration="18809000" />
+      <workItem from="1599566015162" duration="20630000" />
+      <workItem from="1599612323161" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599586171879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="初步完成瀑布流">
+      <created>1599588329942</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599588329942</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +185,8 @@
     <MESSAGE value="组件显示效果的优化：点击态" />
     <MESSAGE value="写瀑布流的第一步：封装通用的Paging对象" />
     <MESSAGE value="对瀑布流自定义组件的样式调整：&#10;标签&#10;价格/打折价格" />
-    <option name="LAST_COMMIT_MESSAGE" value="对瀑布流自定义组件的样式调整：&#10;标签&#10;价格/打折价格" />
+    <MESSAGE value="初步完成瀑布流" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步完成瀑布流" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -190,10 +197,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599586179078">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599588447542">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599586179078" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599588447542" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599585415011">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
