@@ -4,7 +4,7 @@ class SpuPaging{
     static async getLatestPaing(){
         return new Paging({
             url:`spu/latest`
-        }, 3, 0)
+        }, 5, 0)
     }
 }
 export {
