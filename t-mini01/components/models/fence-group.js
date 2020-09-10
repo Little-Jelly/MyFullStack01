@@ -1,6 +1,7 @@
+import {Matrix} from "./matrix";
 
 
-        class FenceGroup{
+class FenceGroup{
 
             spu
             skuList = []
@@ -12,7 +13,18 @@
             }
 
             initFences(){
+                const matrix = this._createMatrix(this.skuList)
+                matrix.forEach((element, i, j)=>{
 
+                })
+            }
+
+            _createMatrix(skuList){
+                const m = []
+                skuList.forEach(sku=>{
+                    m.push(sku.specs)
+                })
+                return new Matrix(m)
             }
         }
         export {

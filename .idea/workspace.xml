@@ -29,14 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/t-mini01/models/spu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-mini01/components/models/matrix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/components/models/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/fence-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/detail/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/detail/detail.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/detail/detail.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/pages/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/detail/detail.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +107,7 @@
       <workItem from="1599612323161" duration="7442000" />
       <workItem from="1599663314836" duration="1964000" />
       <workItem from="1599698469270" duration="3191000" />
-      <workItem from="1599719601628" duration="2625000" />
+      <workItem from="1599719601628" duration="4942000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -198,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599665269405</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="继续搭建页面骨架">
+      <created>1599724128485</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599724128485</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +243,8 @@
     <MESSAGE value="优化每周上新的价格显示" />
     <MESSAGE value="瀑布流图片，设置点击-&gt;页面跳转" />
     <MESSAGE value="搭建details页面中自定义组件的骨架:realm/fence" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建details页面中自定义组件的骨架:realm/fence" />
+    <MESSAGE value="继续搭建页面骨架" />
+    <option name="LAST_COMMIT_MESSAGE" value="继续搭建页面骨架" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -252,10 +255,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599665276400">
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599724136513">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599665276400" />
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599724136513" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599585415011">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
