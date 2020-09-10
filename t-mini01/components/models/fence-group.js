@@ -1,12 +1,10 @@
 import {Matrix} from "./matrix";
+import {Fence} from "./fence";
 
 
 class FenceGroup{
-
             spu
             skuList = []
-            
-
             constructor(spu) {
                 this.spu = spu
                 this.skuList = spu.sku_list
@@ -24,6 +22,7 @@ class FenceGroup{
                     }
                     fences[currentJ].pushValueTtile(element.value)
                 })
+                console.log(fences)
             }
 
             _createFence(element){

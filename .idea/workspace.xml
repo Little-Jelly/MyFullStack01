@@ -31,7 +31,9 @@
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/components/models/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/fence-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/models/fence.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/fence.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/pages/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/pages/detail/detail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +109,8 @@
       <workItem from="1599612323161" duration="7442000" />
       <workItem from="1599663314836" duration="1964000" />
       <workItem from="1599698469270" duration="3191000" />
-      <workItem from="1599719601628" duration="6023000" />
+      <workItem from="1599719601628" duration="6165000" />
+      <workItem from="1599739424446" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -207,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599726649133</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="矩阵转置算法">
+      <created>1599727768189</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599727768189</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +262,8 @@
     <MESSAGE value="搭建details页面中自定义组件的骨架:realm/fence" />
     <MESSAGE value="继续搭建页面骨架" />
     <MESSAGE value="矩阵遍历的写法" />
-    <option name="LAST_COMMIT_MESSAGE" value="矩阵遍历的写法" />
+    <MESSAGE value="矩阵转置算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="矩阵转置算法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -263,10 +274,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599726653218">
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599727772566">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599726653218" />
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599727772566" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599585415011">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
