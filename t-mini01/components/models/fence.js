@@ -13,8 +13,17 @@ class Fence{
             }
 
             init(){
+                this._initCells()
+            }
+
+            _initCells(){
                 this.specs.forEach(s=>{
-                    // this.pushValueTtile(s.value)
+                    const existed = this.cells.some(c=>{
+                        return c.id === s.value_id
+                    })
+                    if(existed){
+                        return
+                    }
                     const cell = new Cell(s)
                     this.cells.push(cell)
                 })
