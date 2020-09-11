@@ -30,13 +30,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/fence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/fence/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/cell/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/cell/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/components/fence/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/models/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/fence-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/models/fence.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/fence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/fence/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <workItem from="1599719601628" duration="6165000" />
       <workItem from="1599739424446" duration="3314000" />
       <workItem from="1599787795511" duration="1320000" />
-      <workItem from="1599793459899" duration="8052000" />
+      <workItem from="1599793459899" duration="9299000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -243,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599803346734</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="新建组件cell&#10;向cell中填充规格值">
+      <created>1599807728236</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599807728236</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +296,8 @@
     <MESSAGE value="获取SKU数据成功！" />
     <MESSAGE value="代码重构，使用纯正的面向对象来整理数据！" />
     <MESSAGE value="增加cell对象，对fence进一步抽象" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加cell对象，对fence进一步抽象" />
+    <MESSAGE value="新建组件cell&#10;向cell中填充规格值" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建组件cell&#10;向cell中填充规格值" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -303,10 +308,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599803354136">
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599807743043">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599803354136" />
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599807743043" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599807163080">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
