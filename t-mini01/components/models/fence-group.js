@@ -19,6 +19,7 @@ class FenceGroup{
                     fence.init()
                     fences.push(fence)
                 })
+                console.log(fences)
             }
 
             _createFence(element){
