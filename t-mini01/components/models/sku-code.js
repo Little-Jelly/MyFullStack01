@@ -22,7 +22,7 @@ class SkuCode{
                 const newSegments = segments.map(segs=>{
                     return segs.join('#')
                 })
-                console.log(newSegments)
+                this.totalSegments = this.totalSegments.concat(newSegments)
             }
         }
 
