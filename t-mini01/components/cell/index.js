@@ -18,6 +18,11 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    onTap(event){
+      console.log('12312313')
+      this.triggerEvent('celltap', {
 
+      })
+    }
   }
 })
