@@ -29,10 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/t-mini01/core/enum.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/cell/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/cell/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/models/cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/cell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/cell/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/cell/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,7 @@
       <workItem from="1599787795511" duration="1320000" />
       <workItem from="1599793459899" duration="11142000" />
       <workItem from="1599814266056" duration="1604000" />
-      <workItem from="1599872600133" duration="6590000" />
+      <workItem from="1599872600133" duration="8104000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599877889231</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="添加按钮的状态切换样式">
+      <created>1599879300685</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599879300685</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +345,8 @@
     <MESSAGE value="完成一个SPU对应下的所有SKU的可能路径的排列组合" />
     <MESSAGE value="写点击的样式：禁用、选中" />
     <MESSAGE value="给按钮添加事件，handler详细先空" />
-    <option name="LAST_COMMIT_MESSAGE" value="给按钮添加事件，handler详细先空" />
+    <MESSAGE value="添加按钮的状态切换样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加按钮的状态切换样式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -349,10 +357,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599877895659">
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599879305567">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599877895659" />
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599879305567" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599807163080">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
