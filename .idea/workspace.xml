@@ -31,6 +31,10 @@
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/components/cell/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/cell/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/cell/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/cell/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/fence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/fence/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/fence/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/models/judger.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/judger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" afterDir="false" />
     </list>
@@ -113,7 +117,8 @@
       <workItem from="1599787795511" duration="1320000" />
       <workItem from="1599793459899" duration="11142000" />
       <workItem from="1599814266056" duration="1604000" />
-      <workItem from="1599872600133" duration="8104000" />
+      <workItem from="1599872600133" duration="8783000" />
+      <workItem from="1599893360257" duration="3304000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -290,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599879300685</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="使用事件冒泡的机制完成点击事件的跨组件传递">
+      <created>1599881035674</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599881035674</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +333,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除原有的api部分的程序" />
     <MESSAGE value="截至到主页上面瀑布流之前的页面内容显示" />
     <MESSAGE value="组件显示效果的优化：点击态" />
     <MESSAGE value="写瀑布流的第一步：封装通用的Paging对象" />
@@ -346,7 +357,8 @@
     <MESSAGE value="写点击的样式：禁用、选中" />
     <MESSAGE value="给按钮添加事件，handler详细先空" />
     <MESSAGE value="添加按钮的状态切换样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加按钮的状态切换样式" />
+    <MESSAGE value="使用事件冒泡的机制完成点击事件的跨组件传递" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用事件冒泡的机制完成点击事件的跨组件传递" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -357,10 +369,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599879305567">
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599881039628">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599879305567" />
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599881039628" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599807163080">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
