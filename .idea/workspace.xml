@@ -30,8 +30,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/models/judger.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/judger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/models/sku-pending.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/sku-pending.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,8 @@
       <workItem from="1599814266056" duration="1604000" />
       <workItem from="1599872600133" duration="8783000" />
       <workItem from="1599893360257" duration="5083000" />
-      <workItem from="1599907403618" duration="6828000" />
+      <workItem from="1599907403618" duration="7085000" />
+      <workItem from="1599924253955" duration="871000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -312,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599922475675</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="完成SKU的选择逻辑">
+      <created>1599924054161</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599924054162</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +351,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="写瀑布流的第一步：封装通用的Paging对象" />
     <MESSAGE value="对瀑布流自定义组件的样式调整：&#10;标签&#10;价格/打折价格" />
     <MESSAGE value="初步完成瀑布流" />
     <MESSAGE value="使用loadmore的linui组件，实现页底提示" />
@@ -368,7 +375,8 @@
     <MESSAGE value="使用事件冒泡的机制完成点击事件的跨组件传递" />
     <MESSAGE value="完成按钮从可选-&gt;选中/选中-&gt;可选的正向选择和反向选择的样式显示" />
     <MESSAGE value="寻找潜在路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="寻找潜在路径" />
+    <MESSAGE value="完成SKU的选择逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成SKU的选择逻辑" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -379,17 +387,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599922478587">
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599924289371">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599922478587" />
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599924289371" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599807163080">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599807163080" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1599921330764">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1599925123015">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599921330764" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599925123015" />
   </component>
 </project>
