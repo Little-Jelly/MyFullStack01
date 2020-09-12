@@ -32,8 +32,22 @@ class Judger{
             this._changeCurrentCellStatus(cell, x, y)
             this.fenceGroup.eachCell((cell, x, y)=>{
                 const path = this._findPotentialPath(cell, x, y)
-                console.log(path)
+                // console.log(path)
+                if(!path){
+                    return
+                }
+                const isIn = this._isInDict(path)
+                if(isIn){
+                    this.fenceGroup.fences[x].cells[y].status = CellStatus.WAITING
+                }
+                else {
+                    this.fenceGroup.fences[x].cells[y].status = CellStatus.FORBIDDEN
+                }
             })
+        }
+
+        _isInDict(path){
+            return this.pathDict.includes(path)
         }
 
         _findPotentialPath(cell, x, y){
@@ -41,6 +55,10 @@ class Judger{
             for(let i=0; i< this.fenceGroup.fences.length;i++){
                 const selected = this.skuPending.findSelectedCellByX(i)
                 if(x === i){
+                    // 当前行
+                    if(this.skuPending.isSelected(cell, x)){
+                        return
+                    }
                     const cellCode = this._getCellCode(cell.spec)
                     joiner.join(cellCode)
                 }
