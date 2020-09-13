@@ -14,7 +14,8 @@ Component({
    * 组件的初始数据
    */
   data: {
-        judger:Object
+        judger:Object,
+        previewImg:String
   },
 
   observers:{
@@ -26,7 +27,14 @@ Component({
           fencesGroup.initFences()
           const judger = new Judger(fencesGroup)
           this.data.judger = judger
-          judger._initPathDict()
+
+          const defaultSku = fencesGroup.getDefaultSku()
+          if(defaultSku){
+              this.bindSkuData(defaultSku)
+          }else{
+              this.bindSpuData()
+          }
+          // judger._initPathDict()
           this.bindInitData(fencesGroup)
       }
   },
@@ -35,7 +43,17 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+        bindSpuData(){
+            const spu = this.properties.spu
+            this.setData({
+                previewImg:spu.img
+            })
+        },
+        bindSkuData(sku){
+            this.setData({
+                previewImg:sku.img
+            })
+        },
         bindInitData(fenceGroup){
             this.setData({
                 fences:fenceGroup.fences

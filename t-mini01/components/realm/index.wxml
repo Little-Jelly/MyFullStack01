@@ -2,7 +2,7 @@
         <view class="container">
 <!--            realm大概分四块-->
             <view class="sku-preview">
-                <image class="sku-img"></image>
+                <image src="{{previewImg}}" class="sku-img"></image>
                 <view class="sku-description">
                     <text class="title">测试SKU</text>
                     <view>
