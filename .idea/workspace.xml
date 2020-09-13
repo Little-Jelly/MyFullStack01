@@ -32,6 +32,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,7 @@
       <workItem from="1599924253955" duration="983000" />
       <workItem from="1599972052730" duration="822000" />
       <workItem from="1600004763398" duration="651000" />
-      <workItem from="1600006306970" duration="4420000" />
+      <workItem from="1600006306970" duration="5019000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -357,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600010342665</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="显示预览图片，如果有默认的SKU则显示默认的SKU图片，如果没有默认的SKU，则显示SPU图片">
+      <created>1600010816564</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1600010816564</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +396,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="去除多余的调试信息console.log" />
     <MESSAGE value="优化每周上新的价格显示" />
     <MESSAGE value="瀑布流图片，设置点击-&gt;页面跳转" />
     <MESSAGE value="搭建details页面中自定义组件的骨架:realm/fence" />
@@ -413,7 +420,8 @@
     <MESSAGE value="去掉多余大打印信息" />
     <MESSAGE value="完成默认规格渲染&#10;对渲染的功能进行简单的重构" />
     <MESSAGE value="重构默认渲染的函数，将对应的功能进行可读性的封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构默认渲染的函数，将对应的功能进行可读性的封装" />
+    <MESSAGE value="显示预览图片，如果有默认的SKU则显示默认的SKU图片，如果没有默认的SKU，则显示SPU图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="显示预览图片，如果有默认的SKU则显示默认的SKU图片，如果没有默认的SKU，则显示SPU图片" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
@@ -428,10 +436,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600010349840">
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600010820465">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600010349840" />
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600010820465" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599807163080">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

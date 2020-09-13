@@ -46,12 +46,18 @@ Component({
         bindSpuData(){
             const spu = this.properties.spu
             this.setData({
-                previewImg:spu.img
+                previewImg:spu.img,
+                title:spu.title,
+                price:spu.price,
+                discountPrice:spu.discount_price
             })
         },
         bindSkuData(sku){
             this.setData({
-                previewImg:sku.img
+                previewImg:sku.img,
+                title:sku.title,
+                price:sku.price,
+                discountPrice:sku.discount_price
             })
         },
         bindInitData(fenceGroup){
