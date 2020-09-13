@@ -25,7 +25,6 @@ class Judger{
                 const skuCode = new SkuCode(s.code)
                 this.pathDict = this.pathDict.concat(skuCode.totalSegments)
             })
-            console.log(this.pathDict)
         }
 
         judge(cell, x, y){

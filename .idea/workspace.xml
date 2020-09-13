@@ -30,8 +30,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ac1a9a9-a76b-49d4-8759-de02789c2b23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-mini01/components/realm/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/realm/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/models/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/fence-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-mini01/components/models/judger.js" beforeDir="false" afterPath="$PROJECT_DIR$/t-mini01/components/models/judger.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,12 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1gqTTdnheRnPtU195TiFMqOIvlZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -72,7 +78,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/t-mini01/imgs/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JDHome" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -115,7 +121,9 @@
       <workItem from="1599872600133" duration="8783000" />
       <workItem from="1599893360257" duration="5083000" />
       <workItem from="1599907403618" duration="7085000" />
-      <workItem from="1599924253955" duration="871000" />
+      <workItem from="1599924253955" duration="983000" />
+      <workItem from="1599972052730" duration="822000" />
+      <workItem from="1600004763398" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="删除原有的api部分的程序">
       <created>1598841987413</created>
@@ -320,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599924054162</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="进行realm的样式调整">
+      <created>1599925219387</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1599925219387</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +366,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="对瀑布流自定义组件的样式调整：&#10;标签&#10;价格/打折价格" />
     <MESSAGE value="初步完成瀑布流" />
     <MESSAGE value="使用loadmore的linui组件，实现页底提示" />
     <MESSAGE value="优化使用loadmore的方法:设置显示时机，状态1和状态3的切换&#10;修改“没有更多数据”即状态3的显示文本&#10;在有wx:for的地方加上wx:key，以消除console报出来的警告" />
@@ -376,28 +390,33 @@
     <MESSAGE value="完成按钮从可选-&gt;选中/选中-&gt;可选的正向选择和反向选择的样式显示" />
     <MESSAGE value="寻找潜在路径" />
     <MESSAGE value="完成SKU的选择逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成SKU的选择逻辑" />
+    <MESSAGE value="进行realm的样式调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="进行realm的样式调整" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="348" key="#Notifications" timestamp="1599399485904">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="694" y="348" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1599399485904" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1599972249271">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1599972249271" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1599491474138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599491474138" />
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599924289371">
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599925223352">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599924289371" />
+    <state x="216" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599925223352" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1599807163080">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599807163080" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1599925123015">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600005090006">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599925123015" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600005090006" />
   </component>
 </project>
