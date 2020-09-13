@@ -22,10 +22,14 @@ class Judger{
                 return
             }
             this.skuPending.init(defaultSku)
+            this._initSelectedCell()
+            this.judge(null, null, null, true)
+        }
+
+        _initSelectedCell(){
             this.skuPending.pending.forEach(cell=>{
                 this.fenceGroup.setCellStatusById(cell.id, CellStatus.SELECTED)
             })
-            this.judge(null, null, null, true)
         }
 
         _initPathDict(){
