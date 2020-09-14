@@ -27,7 +27,7 @@
 			"outputPath": ""
 		},
 		"useIsolateContext": true,
-		"useCompilerModule": true,
+		"useCompilerModule": false,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
@@ -68,7 +68,14 @@
 					"id": 0,
 					"name": "pages/detail/detail",
 					"pathName": "pages/detail/detail",
-					"query": "pid=2",
+					"query": "pid=12",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "无规格",
+					"pathName": "pages/detail/detail",
+					"query": "pid=11",
 					"scene": null
 				}
 			]
